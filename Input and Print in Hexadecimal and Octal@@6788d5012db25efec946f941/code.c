@@ -2,6 +2,6 @@
 int main() {
     int num;
     scanf("%d",&num);
-    printf("%", welcome());
+    printf("Decimal%", welcome());
     return 0;
 }
