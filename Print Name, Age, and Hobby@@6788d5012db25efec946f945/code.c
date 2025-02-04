@@ -4,8 +4,8 @@ int main() {
     int n;
     char str1[100];
     scanf("%s %d\n %s",&str,&n,&str1);
-    printf("Name: %s",str);
-    printf("Age: %d",n);
-    printf("Hobby: %s",str1);
+    printf("Name: %s\n",str);
+    printf("Age: %d\n",n);
+    printf("Hobby: %s\n",str1);
     return 0;
 }
