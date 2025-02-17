@@ -12,5 +12,8 @@ int main(){
     else if(a%1900==0){
         printf("Not a Leap Year");
     }
+    else{
+       printf("Not a Leap Year"); 
+    }
     return 0;
 }
