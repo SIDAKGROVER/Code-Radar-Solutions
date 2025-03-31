@@ -9,8 +9,8 @@ int main(){
     }   
     scanf("%d",&k);
     int prry[n];
-    for (int j=1;j<n;j++){
-        if (j+k<=n){
+    for (int j=0;j<n;j++){
+        if (j+k+1<=n){
             prry[j+k]=arr[j];
 
         }
