@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&k);
     int prry[n];
     for (int j=0;j<=n;j++){
-        if (j+k+1<n){
+        if (j+k<n){
             prry[j+k]=arr[j];
 
         }
