@@ -9,7 +9,7 @@ int main(){
     }
     scanf("%d",&k);
     for (int j=0;j<n;j++){
-        if (i+k+1<=n){
+        if (j+k+1<=n){
             prr[i+k]=arr[i];
 
         }
