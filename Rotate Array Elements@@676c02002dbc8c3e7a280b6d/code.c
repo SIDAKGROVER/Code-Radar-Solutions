@@ -15,7 +15,7 @@ int main(){
 
         }
         else{
-            prry[j+k-n]=arr[j]
+            prry[j+k-n]=arr[j];
         }
 
     }
