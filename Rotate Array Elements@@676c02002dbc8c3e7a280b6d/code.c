@@ -20,7 +20,7 @@ int main(){
 
     }
      for(int i=1;i<n;i++){
-        printf("%d",prry[i]);
+        printf("%d\n",prry[i]);
 
 }
 }
