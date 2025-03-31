@@ -19,7 +19,7 @@ int main(){
         
     }
     for(int j =0;j<n;j++){
-        printf("%d",prr[j]);
+        printf("%d\n",prr[j]);
     }
 
 
