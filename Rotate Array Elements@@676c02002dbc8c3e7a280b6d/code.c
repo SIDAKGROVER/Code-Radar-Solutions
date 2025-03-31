@@ -10,12 +10,12 @@ int main(){
     scanf("%d",&k);
     int prry[n];
     for (int j=1;j<n;j++){
-        if (i+k<=n){
-            prry[i+k]=arr[i];
+        if (j+k<=n){
+            prry[j+k]=arr[j];
 
         }
         else{
-            prry[i+k-n]=arr[]
+            prry[j+k-n]=arr[j]
         }
 
     }
