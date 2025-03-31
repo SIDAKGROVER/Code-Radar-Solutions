@@ -10,16 +10,16 @@ int main(){
     scanf("%d",&k);
     for (int j=0;j<n;j++){
         if (j+k+1<=n){
-            prr[i+k]=arr[i];
+            prr[j+k]=arr[j];
 
         }
         else{
-            prr[i+k-n]=arr[i];
+            prr[j+k-n]=arr[j];
         }
         
     }
     for(int j =0;j<n;j++){
-        printf("%d",prr[n]);
+        printf("%d",prr[j]);
     }
 
 
