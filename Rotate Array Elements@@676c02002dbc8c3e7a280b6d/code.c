@@ -3,24 +3,24 @@ int main(){
     int n,k;
     scanf("%d",&n);
     int arr[n];
-    int prr[n];
-    for (int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         scanf("%d",&arr[i]);
-    }
+
+    }   
     scanf("%d",&k);
-    for (int j=0;j<n;j++){
-        if (j+k+1<=n){
-            prr[j+k]=arr[j];
+    int prry[n];
+    for (int j=1;j<n;j++){
+        if (i+k<=n){
+            prry[i+k]=arr[i];
 
         }
         else{
-            prr[j+k-n]=arr[j];
+            prry[i+k-n]=arr[]
         }
-        
-    }
-    for(int j =0;j<n;j++){
-        printf("%d\n",prr[j]);
-    }
 
+    }
+     for(int i=1;i<n;i++){
+        printf("%d",prry[i]);
 
+}
 }
