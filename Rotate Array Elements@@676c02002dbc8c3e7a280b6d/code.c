@@ -9,7 +9,7 @@ int main(){
     }   
     scanf("%d",&k);
     int prry[n];
-    for (int j=0;j<=n;j++){
+    for (int j=0;j<n;j++){
         if (j+k+1<=n){
             prry[j+k]=arr[j];
 
@@ -17,7 +17,7 @@ int main(){
         else{
             prry[j+k-n]=arr[j];
         }
-
+         
     }
      for(int i=0;i<n;i++){
         printf("%d\n",prry[i]);
